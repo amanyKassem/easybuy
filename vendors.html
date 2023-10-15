@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>home</title>
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+      sizes="64*64"
+    />
+
+    <!-- bootstrap 5 id english -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+      integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap 5 if arabic -->
+    <!--  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.rtl.min.css"
+      integrity="sha512-rXhL8a+X3wTosWn2Zgd/5L8rfWrpff7qdOnl7Wg1n2zHk8lHGhiSujoyxoKw1nf43kZAzJoe0Z0ymr2Kkku7lQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+
+    <!-- Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Slick CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fancybox CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+      integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      media="all"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--    to load google font faster-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <!-- if arabic add class="rtl" dir="rtl" to body  -->
+  <body>
+    <!--  Start Header  -->
+
+    <header id="header">
+      <!-- menu -->
+      <div class="main-nav">
+        <div class="container">
+          <div
+            class="menu-bar d-flex d-md-none justify-content-between align-items-center"
+          >
+            <a href="index.html" class="logo-link">
+              <img
+                src="assets/img/logo.svg"
+                class="logo lazyload"
+                alt="easy buy"
+              />
+            </a>
+            <div class="toggle">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="menu d-flex flex-wrap">
+            <ul class="menu-links">
+              <li class="me-md-3">
+                <a class="text-capitalize" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="me-md-3">
+                <a class="text-capitalize" href="products.html">Products</a>
+              </li>
+              <li class="active me-md-3">
+                <a class="text-capitalize" href="vendors.html">Vendors</a>
+              </li>
+              <li class="me-md-3">
+                <a class="text-capitalize" href="aboutUs.html">About Us</a>
+              </li>
+              <li class="me-md-3">
+                <a class="text-capitalize" href="whatEasyBuy.html"
+                  >What is Easy buy?</a
+                >
+              </li>
+              <li>
+                <a class="text-capitalize" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="container">
+          <div class="d-flex justify-content-between flex-wrap">
+            <a href="index.html" class="d-none d-md-block">
+              <img
+                src="assets/img/logo.svg"
+                class="logo lazyload"
+                alt="easy buy"
+              />
+            </a>
+            <div
+              class="d-flex justify-content-center justify-content-md-start align-items-center flex-wrap"
+            >
+              <a
+                href="payInstallment.html"
+                class="text-capitalize btn btn-secondary me-2 me-md-3 mb-3 mb-md-0"
+              >
+                Pay Installment
+              </a>
+              <a
+                href="howPremium.html"
+                class="text-capitalize btn btn-primary me-2 me-md-3 mb-3 mb-md-0"
+              >
+                How to be Premium ?
+              </a>
+              <a href="#" class="header-icon me-3 mb-3 mb-md-0">
+                <i class="fa-regular fa-user"></i>
+              </a>
+              <a
+                href="cart.html"
+                class="header-icon me-3 position-relative mb-3 mb-md-0"
+              >
+                <span class="count">3</span>
+                <i class="fa-solid fa-bag-shopping"></i>
+              </a>
+              <a href="javascript:void(0)" class="header-icon mb-3 mb-md-0">
+                <i class="fa-solid fa-globe me-1"></i>
+                <span class="fw-bold fs-13">Ar</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--end header-->
+
+    <!-- start vendors -->
+
+    <div class="head-bg">
+      <img src="assets/img/bg.png" alt="easy buy" />
+      <!-- in case of arabic -->
+      <!-- <img src="assets/img/bg-ar.png" alt="easy buy" /> -->
+    </div>
+    <section class="vendors py-4">
+      <div class="container">
+        <h4 class="mb-4 text-uppercase letter-space text-center text-secondary">
+          OUR VENDORS
+        </h4>
+        <div class="row mb-5">
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="AABWorld"
+              data-src="assets/img/vendor1.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="ALSHAYA"
+              data-src="assets/img/vendor2.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="Muhandis"
+              data-src="assets/img/vendor3.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="Alpha store"
+              data-src="assets/img/vendor4.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="auto1"
+              data-src="assets/img/vendor5.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="B2B Merx"
+              data-src="assets/img/vendor6.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="Campnsea"
+              data-src="assets/img/vendor7.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="cloud8"
+              data-src="assets/img/vendor8.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="concept shop"
+              data-src="assets/img/vendor9.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="Digits"
+              data-src="assets/img/vendor10.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="Extreme"
+              data-src="assets/img/vendor11.png"
+              class="lazyload"
+            />
+          </a>
+          <a
+            href="vendor.html"
+            class="col-md-3 col-lg-2 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="assets/img/loader.gif"
+              alt="Falcon"
+              data-src="assets/img/vendor12.png"
+              class="lazyload"
+            />
+          </a>
+        </div>
+        <p class="text-dark text-center mp-0">More Vendors Coming Soon...</p>
+      </div>
+    </section>
+    <!-- end vendors -->
+
+    <!-- start contact -->
+    <section class="contact py-5 bg-secondary text-center">
+      <div class="container">
+        <h6 class="text-white mb-3">
+          Be the first to know about all the latest & best offers.
+        </h6>
+        <form action="#" class="custom-form-width">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your email address"
+              aria-label="Enter your email address"
+              aria-describedby="send-email"
+            />
+            <button class="btn btn-primary" type="button" id="send-email">
+              <img src="assets/img/send.svg" alt="send" />
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start mb-5 mb-lg-0"
+          >
+            <div class="d-flex flex-column d-md-block">
+              <a
+                href="index.html"
+                class="mb-3 justify-content-center justify-content-md-start"
+              >
+                <img
+                  src="assets/img/logo.svg"
+                  class="logo lazyload"
+                  alt="easy buy"
+                />
+              </a>
+              <ul class="contact-list">
+                <li class="d-flex align-items-center flex-wrap mb-2 fs-13">
+                  <i class="fa-solid fa-phone me-2 text-secondary fs-6"></i>
+                  <a href="tel:+965 22203000">+965 22203000</a>
+                </li>
+                <li class="d-flex align-items-center flex-wrap mb-3 fs-13">
+                  <i
+                    class="fa-regular fa-envelope me-2 text-secondary fs-6"
+                  ></i>
+                  <a href="mailto:Easybuy@Easybuykw.Com"
+                    >Easybuy@Easybuykw.Com</a
+                  >
+                </li>
+              </ul>
+              <ul class="social-list d-flex align-items-center flex-wrap">
+                <li class="me-2">
+                  <a href="#" target="_blank"
+                    ><i class="fa-brands fa-square-facebook"></i
+                  ></a>
+                </li>
+                <li class="me-2">
+                  <a href="#" target="_blank"
+                    ><i class="fa-brands fa-square-instagram"></i
+                  ></a>
+                </li>
+                <li class="me-2">
+                  <a href="#" target="_blank"
+                    ><i class="fa-brands fa-square-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 d-flex justify-content-center mb-5 mb-lg-0"
+          >
+            <div class="footer-200">
+              <h6 class="fw-bold text-dark mb-3">Company</h6>
+              <ul class="footer-links">
+                <li class="mb-2">
+                  <a href="aboutUs.html" class="text-capitalize">About Us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-capitalize">Find Us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="payInstallment.html" class="text-capitalize"
+                    >Pay Installment</a
+                  >
+                </li>
+                <li>
+                  <a href="whatEasyBuy.html" class="text-capitalize"
+                    >What is easy buy?</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start justify-content-lg-center mb-5 mb-md-0"
+          >
+            <div class="footer-200">
+              <h6 class="fw-bold text-dark mb-3">Help</h6>
+              <ul class="footer-links">
+                <li class="mb-2">
+                  <a href="#" class="text-capitalize">Privacy Policy</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-capitalize">Terms and Condition</a>
+                </li>
+                <li>
+                  <a href="howPremium.html" class="text-capitalize"
+                    >How To Be Premium ?</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 d-flex justify-content-center justify-content-lg-end"
+          >
+            <div>
+              <h6 class="fw-bold text-dark mb-3">Get the app now</h6>
+              <a href="#" class="store-links mb-2">
+                <img src="assets/img/google.svg" alt="google play" />
+              </a>
+              <a href="#" class="store-links">
+                <img src="assets/img/apple.svg" alt="apple store" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="copy-right text-white text-center bg-primary py-3 fs-13 fw-bold"
+    >
+      <div class="container">© 2023 Easy Buy All Rights Reserved</div>
+    </div>
+    <!-- end footer -->
+
+    <!-- start scroll-top-->
+    <div id="scroll-top" class="text-center">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- end scroll-top-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap 5 -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"
+      integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+      integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <!-- fancybox js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slick Slider js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
